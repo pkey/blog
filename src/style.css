@@ -55,11 +55,11 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
+  --color-primary: #9d6b29;
+  --color-text: #3e4f53;
+  --color-text-light: #3e4f53;
+  --color-heading: #3e4f53;
+  --color-heading-black: #3e4f53;
   --color-accent: #fcf6e5;
 }
 
@@ -299,7 +299,8 @@ a:focus {
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
+  min-width: 100px;
+  min-height: 100px;
   border-radius: 100%;
 }
 

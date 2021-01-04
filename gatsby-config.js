@@ -3,7 +3,7 @@ module.exports = {
     title: `Hey, I'm Paulius`,
     author: {
       name: `Paulius Kutka`,
-      summary: `who lives and works in London.`,
+      summary: `I earn my daily bread by writing code. I currently live and work in London, UK.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -60,13 +60,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Kutka's Blog`,
+        short_name: `KutkaBlog`,
         start_url: `/`,
         background_color: `#FCF6E5`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
