@@ -1,6 +1,6 @@
 ---
 title: Hello 2021
-date: "2020-01-04T22:40:32.169Z"
+date: "2021-01-04"
 ---
 
 If you ask me, 2020 wasn’t that bad. If you, on the other hand, ask [25 million Americans](https://www.epi.org/blog/what-the-next-president-inherits-more-than-25-million-workers-are-being-hurt-by-the-coronavirus-downturn/) - it wasn’t that great.
