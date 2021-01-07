@@ -57,7 +57,7 @@ const Bio = () => {
           {author?.summary || null}
           {` `}
           If you find my writings interesting, feel free to reach out on {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter.</a>
+          <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a>.
         </p>
       )}
     </div>
