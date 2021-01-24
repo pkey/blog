@@ -56,7 +56,9 @@ const Bio = () => {
           Hello! My name is <strong>{author.name}</strong>.{` `}
           {author?.summary || null}
           {` `}
-          If you find my writings interesting, feel free to reach out on {` `}
+          My goal is to write anything every week so there is no proper
+          structure and no theme. If you want to chat, feel free to reach out on{" "}
+          {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a>.
         </p>
       )}
