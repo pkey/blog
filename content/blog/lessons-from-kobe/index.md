@@ -6,11 +6,11 @@ imageTitleHtml: Kobe and Gianna Bryant - Mural in Los Angeles
 imageAlt: kobe-gigi-mural
 ---
 
-It's crazy to think that it has been exactly one year since the death of Kobe Bryant. 
+It's crazy to think that it has been exactly one year since Kobe Bryant passed away in a tragic accident.
 
-Even though I was on a camp LeBron when these two were considered to be the rivals, I could not argue that Kobe was a phenomenal figure in and out of the court.  I would watch each and every of his video, trying to mimic his moves and never skipping to shout "Kobe!" before taking a jump shot. Basketball played a big part in building my character and so did Kobe.
+Kobe was a phenomenal figure in and out of the court. I would watch each and every of his video, trying to mimic his moves and never skipping to shout "Kobe!" before taking a jump shot. Basketball played a big part in building my character and so did Kobe.
 
-Here are what he taught me about success:
+Here is what he taught me about success:
 
 ### Show up and success will follow
 
