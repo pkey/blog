@@ -6,7 +6,7 @@ module.exports = {
       summary: `I earn my daily bread by writing code. I currently live and work in London, UK.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://kutka.co`,
     social: {
       twitter: `paulkutka`,
     },
