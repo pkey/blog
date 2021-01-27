@@ -21,7 +21,7 @@ It shows that it was no coincidence that Kobe went and won 5 championships. It w
 
 ### Haters are inevitable
 
-Hate comes from people either envying your success or strongly disagreeing with your ways. In either case, being hated means you are doing something unusual. Darwin had haters. Newton had haters. Kobe had haters too because what and the way he was doing it at the time was phenomenal. In the end, it did not matter who hated or who still hates him - his achievements speak for themselves.
+Hate comes from people either envy your success or strongly disagree with your ways. In either case, being hated means you are doing something unusual. Darwin had haters. Newton had haters. Kobe had haters too because what and the way he was doing it at the time was extraordinary. In the end, it did not matter who hated him - his achievements speak for themselves.
 
 > "Haters are a good problem to have. Nobody hates the good ones. They hate the great ones."
 
