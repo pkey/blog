@@ -1,4 +1,5 @@
 import { graphql, Link } from "gatsby"
+import Image from "gatsby-image"
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -28,6 +29,28 @@ const BlogPostTemplate = ({ data, location }) => {
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
+          {data.markdownRemark.frontmatter.image?.childImageSharp?.fluid && (
+            <>
+              <Image
+                fluid={
+                  data.markdownRemark.frontmatter.image.childImageSharp.fluid
+                }
+                alt={data.markdownRemark.frontmatter.imageAlt}
+              />
+              <div
+                style={{
+                  textAlign: "center",
+                  fontSize: "14px",
+                  lineHeight: "28px",
+                }}
+                dangerouslySetInnerHTML={{
+                  __html: data.markdownRemark.frontmatter.imageTitleHtml,
+                }}
+              />
+              <br />
+              <br />
+            </>
+          )}
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}

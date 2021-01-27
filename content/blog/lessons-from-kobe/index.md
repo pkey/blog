@@ -2,11 +2,9 @@
 title: Lessons From Kobe
 date: "2021-01-27"
 image: './kobe-gigi-wall.jpg'
-imageTitleHtml: 'kobe'
-imageAlt: 'kobe'
+imageTitleHtml: Kobe and Gianna Bryant - Mural in Los Angeles
+imageAlt: kobe-gigi-mural
 ---
-
-![kobe-and-gigi-wall](./kobe-gigi-wall.jpg)
 
 It's crazy to think that it has been exactly one year since the death of Kobe Bryant. 
 
