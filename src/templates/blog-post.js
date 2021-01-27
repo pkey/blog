@@ -2,6 +2,7 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { constructUrl } from "../utils"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -13,6 +14,11 @@ const BlogPostTemplate = ({ data, location }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        imageUrl={constructUrl(
+          data.site.siteMetadata.siteUrl,
+          post.frontmatter.image?.childImageSharp?.fixed?.src
+        )}
+        imageAlt={post.frontmatter.imageAlt}
       />
       <article
         className="blog-post"
@@ -81,6 +87,18 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        image {
+          childImageSharp {
+            fixed(height: 600, width: 1200) {
+              src
+            }
+            fluid(maxWidth: 700, maxHeight: 500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        imageTitleHtml
+        imageAlt
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

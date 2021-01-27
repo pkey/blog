@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import PropTypes from "prop-types"
+import React from "react"
 import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
-
-const SEO = ({ description, lang, meta, title }) => {
-  const { site } = useStaticQuery(
+import { constructUrl } from "../utils"
+const SEO = ({ description, lang, meta, title, imageUrl, imageAlt }) => {
+  const data = useStaticQuery(
     graphql`
       query {
         site {
@@ -21,11 +21,28 @@ const SEO = ({ description, lang, meta, title }) => {
             social {
               twitter
             }
+            siteUrl
+          }
+        }
+        ogImageDefault: file(relativePath: { eq: "icon.png" }) {
+          childImageSharp {
+            fixed(height: 260, width: 260) {
+              src
+            }
           }
         }
       }
     `
   )
+
+  const { site } = data
+
+  const defaultImageUrl = constructUrl(
+    data.site.siteMetadata.siteUrl,
+    data.ogImageDefault?.childImageSharp?.fixed?.src
+  )
+
+  const ogImageUrl = imageUrl || defaultImageUrl
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
@@ -54,9 +71,10 @@ const SEO = ({ description, lang, meta, title }) => {
           property: `og:type`,
           content: `website`,
         },
+        { property: `og:image`, content: ogImageUrl },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: imageUrl ? `summary_large_image` : `summary`,
         },
         {
           name: `twitter:creator`,
@@ -69,6 +87,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:image:alt`,
+          content: imageAlt || "kutka.co logo",
         },
       ].concat(meta)}
     />

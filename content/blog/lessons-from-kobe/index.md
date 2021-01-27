@@ -1,6 +1,9 @@
 ---
 title: Lessons From Kobe
 date: "2021-01-27"
+image: './kobe-gigi-wall.jpg'
+imageTitleHtml: 'kobe'
+imageAlt: 'kobe'
 ---
 
 ![kobe-and-gigi-wall](./kobe-gigi-wall.jpg)
