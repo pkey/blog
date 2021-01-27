@@ -7,7 +7,7 @@ date: "2021-01-27"
 
 It's crazy to think that it has been exactly one year since the death of Kobe Bryant. 
 
-Even though I was on a camp LeBron when these two were considered to be the rivals, I could not argue that Kobe was a phenomenal figure in and out of the court.  I would watch each and every of his video, trying to mimic his moves and never skipping to shout "Kobe!" before hitting a jump shot. Basketball played a big part in building my character on so did Kobe.
+Even though I was on a camp LeBron when these two were considered to be the rivals, I could not argue that Kobe was a phenomenal figure in and out of the court.  I would watch each and every of his video, trying to mimic his moves and never skipping to shout "Kobe!" before taking a jump shot. Basketball played a big part in building my character and so did Kobe.
 
 Here are what he taught me about success:
 
