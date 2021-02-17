@@ -1,6 +1,8 @@
 ---
-title: Scale of Life
+title: Scale of Time
 date: "2021-02-16"
+image: './time.jpeg'
+imageAlt: hourglass
 ---
 
 At the time I'm writing this, it is February 2021. Almost exactly one year has passed since the pandemic hit the world, drastically changing how we live. Five years ago, Donald Trump was elected as the president of the US. Already seems like a long time, doesn't it? 
