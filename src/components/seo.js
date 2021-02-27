@@ -93,7 +93,9 @@ const SEO = ({ description, lang, meta, title, imageUrl, imageAlt }) => {
           content: imageAlt || "kutka.co logo",
         },
       ].concat(meta)}
-    />
+    >
+    <script async defer data-domain="kutka.co" src="https://plausible.io/js/plausible.js"></script>
+    </Helmet>
   )
 }
 
