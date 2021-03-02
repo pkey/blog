@@ -12,3 +12,5 @@ However, not all days are made the same. Like today, sometimes you wake up and s
 The secret - days like these is when you have to get up and work your ass off. Consistency is what builds and sharpens your character. You can get somewhere by only working when you are feeling good but you won't get far.
 
 So get up and do something.
+
+> Inspiration exists, but it has to find you working - Pablo Picasso
