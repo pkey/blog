@@ -10,6 +10,7 @@ module.exports = {
     social: {
       twitter: `paulkutka`,
     },
+    baseUrl: `/`,
   },
   plugins: [
     {
